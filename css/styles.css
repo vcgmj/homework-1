@@ -3,49 +3,95 @@ body{
 	font-family: sans-serif;
 }
 
-/*Table of contents*/
-		
-		.content { background-color: #fbd334 }
-	
-	/*text*/
-		h2{
-			background-color: #fbd334;
-			margin: auto;
-			text-align: left;
-			padding-top: 60px;
-			font-size:70px;
-			width:800px;
-			text-transform: uppercase;
-			font-family: impact, arial; 	
-		}
-		h4 { 
-			color: black; 
-			text-align: left;
-			margin: auto;
-			width: 800px;
-			font-size:20px;
-			padding-top: 60px;
-			padding-bottom: 20px;
-		}
-		h5{
-			color:black;
-			text-align: left;
-			margin: auto;
-			width: 800px;
-			padding-top: 15px;
-			padding-bottom: 15px;
-			font-size: 15px;
-		}
-	
-	/*lines*/
-		/*thick line*/
-		.style1{ 
-			width: 800px;
-			border: 2px solid #000000;
-		}
+/*header*/
+header{
+	background-color: black;
+	padding-top: 30px;
+	padding-bottom: 60px;
+	background-image:url(http://www.businesstimes.com.sg/sites/default/files/styles/large_popup/public/image/2016/11/24/spacemob24.jpg);
+}
 
-		/*thin line*/
-		.style2{ 
-			width: 800px;
-			border: 0.1px solid orange;
-		}
+h1{
+	color: white;
+	text-align: center;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-family: impact, arial; 
+}
+
+.standfirst{
+	color: white;
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 40px;
+}
+
+/*header links*/
+.links{
+	text-align: center;
+	color:white;
+}
+
+.request {
+	background-color: grey;
+	color: white;
+	padding: 20px 10px 20px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.apply {
+	background-color: red;
+	color:white;
+	padding: 20px 10px 20px 10px;
+	text-decoration: none;
+	border-radius: 5px;
+
+}
+
+/*Table of contents*/
+
+.content { background-color: #fbd334 }
+
+/*text*/
+h2{
+	background-color: #fbd334;
+	margin: auto;
+	text-align: left;
+	padding-top: 60px;
+	font-size:70px;
+	width:800px;
+	text-transform: uppercase;
+	font-family: impact, arial; 	
+}
+h4 { 
+	color: black; 
+	text-align: left;
+	margin: auto;
+	width: 800px;
+	font-size:20px;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+h5{
+	color:black;
+	text-align: left;
+	margin: auto;
+	width: 800px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 15px;
+}
+
+/*lines*/
+/*thick line*/
+.style1{ 
+	width: 800px;
+	border: 2px solid #000000;
+}
+
+/*thin line*/
+.style2{ 
+	width: 800px;
+	border: 0.1px solid orange;
+}
